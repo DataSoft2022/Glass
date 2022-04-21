@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include glass *.css
+recursive-include glass *.csv
+recursive-include glass *.html
+recursive-include glass *.ico
+recursive-include glass *.js
+recursive-include glass *.json
+recursive-include glass *.md
+recursive-include glass *.png
+recursive-include glass *.py
+recursive-include glass *.svg
+recursive-include glass *.txt
+recursive-exclude glass *.pyc
