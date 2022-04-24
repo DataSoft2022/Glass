@@ -17,6 +17,7 @@ def multi_stock_entry(doc):
         n_stock.name = ''
         n_stock.items = s_warehouses[warehouse]
         n_stock.save()
-    
+
+    stock_en.delete()
     frappe.db.commit()
     return 'done'
